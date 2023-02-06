@@ -1,2 +1,4 @@
 # Landing-Page
-Odin Project
+Odin Project Landing Page 
+
+Made an apparel store mock up landing page.

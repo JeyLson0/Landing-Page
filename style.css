@@ -14,14 +14,24 @@ body {
 
 /* header */
 
-.header {
-    display: flex;
+header {
     padding: 10px 40px;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border-bottom: 2px black solid;
+
+}
+
+.header-tab {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 72px;
-    margin: 0 50px;
+    padding: 0 50px;
 }
+
+
 
 .header a{
     border-radius: 90%;
@@ -29,7 +39,7 @@ body {
 
 .logo  {
     display: flex;
-    width: 70px;
+    width: 100px;
     height: auto;
     border-radius: 90%;
     border: 2px solid black;
@@ -43,22 +53,21 @@ body {
 }
 
 .buttons{
-    width: 30px;
+    width: 40px;
 }
 
 /* container 1 */
 
 .container-1 {
     display: flex;
-    flex: 1;
     justify-content: center;
     gap: 100px;
-    background-color: rgba(0, 0, 0, 0.939);
+    background-color: rgba(18, 18, 18, 0.939);
 }
 
 .hero-image {
     height: auto;
-    width: 400px;
+    width: 550px;
     border: 2px solid rgba(82, 77, 77, 0.904);
     border-radius: 8%;
     margin: 20px;
@@ -70,7 +79,7 @@ body {
     color: white;
     justify-content: center;
     flex-shrink: 0;
-    width: 500px;
+    width: 800px;
     gap: 50px;
 }
 
@@ -80,11 +89,11 @@ body {
     border-radius: 10px;
     align-self: center;
     height: 50px;
-    font: 20px ;
+    font: 23px ;
 }
 
 .hero-text {
-    font-size: 42px
+    font-size: 85px
 }
 
 
@@ -92,6 +101,31 @@ body {
 
 .container-2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+    background-color: rgba(190, 190, 190, 0.953);
+
+}
+
+.collection{
+    display: flex;
+    gap: 50px;
+
+}
+
+.collection-banner {
+    width: 200px;
+
+}
+
+.collection img {
+    width: 380px;
+    border: 1px black solid ;
+    border-radius: 8%;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
 /* container 3*/
